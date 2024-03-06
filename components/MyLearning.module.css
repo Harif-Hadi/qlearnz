@@ -1,0 +1,140 @@
+.my_learning {
+    display: flex;
+}
+
+.right_side_dashboard {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem;
+    color: #fff;
+}
+
+.right_side_content {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #176B87 0%, #629DB1 100%);
+    padding: 2rem;
+    width: 75rem;
+    border-radius: 10px;
+}
+
+.right_side_text {
+    margin-right: 4rem;
+}
+
+.right_side_text h1 {
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+.right_side_text p {
+    width: 510px;
+}
+
+.right_side_text button {
+    border: 2px solid #fff;
+    background: none;
+    color: whitesmoke;
+    font-size: 0.98rem;
+    cursor: pointer;
+    padding: 0.7rem 3.5rem;
+    margin-top: 1rem;
+    border-radius: 38px;
+}
+
+.right_side_text button:hover {
+    background-color: rgba(147, 142, 142, 15%);
+}
+
+.create_image {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.create_image img {
+    max-width: fit-content;
+}
+
+@media (max-width: 1463px) {
+    .right_side_content {
+        width: 70rem;
+    }
+}
+
+@media (max-width: 1347px) {
+    .right_side_content {
+        width: 55rem;
+
+    }
+}
+
+@media (max-width: 1096px) {
+    .right_side_content {
+        width: 45rem;
+    }
+
+    .right_side_text p {
+        width: 400px;
+    }
+}
+
+@media (max-width: 930px) {
+    .right_side_content {
+        width: 30rem;
+    }
+
+    .right_side_text {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right_side_text h1 {
+        font-size: 20px;
+    }
+
+    .right_side_text p {
+        font-size: 0.98rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: fit-content;
+    }
+
+    .create_image {
+        display: none;
+    }
+}
+
+@media (max-width: 785px) {
+    .right_side_content {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar_icon_first,
+    .learning_icon,
+    .dashboard_options h3,
+    .account h3,
+    .add_project_icon {
+        display: none;
+    }
+
+    .small_sidebar_icon {
+        display: block;
+    }
+
+
+}
+
+@media (max-width: 564px) {
+    .right_side_content {
+        width: 20rem;
+    }
+}

@@ -1,16 +1,16 @@
-import Hero from "@/components/Hero";
+import Auth from "@/components/Auth";
 import Head from "next/head";
 
-const HomePage = () => {
+const AuthPage = () => {
   return (
     <div>
       <Head>
         <title>Qlearnz</title>
         <meta name="description" content="Online Platform for learning" />
       </Head>
-      <Hero />
+      <Auth />
     </div>
   );
 };
 
-export default HomePage;
+export default AuthPage;

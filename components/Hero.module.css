@@ -1,0 +1,120 @@
+.hero {
+    background: url('../public/images/site/background.jpg');
+    background-color: rgba(23, 29, 31, 0.62);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+}
+
+
+.content {
+    padding: 12rem 3rem;
+}
+
+.content h1 {
+    width: 522px;
+    font-size: 28px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    letter-spacing: 1.4px;
+}
+
+.btn_actions {
+    margin-top: 2rem;
+}
+
+.btn_actions button:first-child {
+    border-radius: 38px;
+    background-color: #E75D74;
+    padding: 0.8rem 2rem;
+    border: 1px solid #e9516a;
+    cursor: pointer;
+    font-size: 0.93rem;
+    color: #fff;
+}
+
+.btn_actions button:last-child {
+    border-radius: 38px;
+    border: 1px solid #fff;
+    padding: 0.8rem 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 0.93rem;
+}
+
+.btn_actions button:first-child:hover {
+    background-color: #e9516a;
+}
+
+.btn_actions button:last-child:hover {
+    background-color: rgba(147, 142, 142, 20%);
+    color: #fff;
+}
+
+@media (max-width: 624px) {
+    .content h1 {
+        width: 500px;
+    }
+}
+
+@media (max-width: 568px) {
+    .content h1 {
+        width: 450px;
+    }
+}
+
+@media (max-width: 549.6px) {
+    .content {
+        padding: 8rem 3rem;
+    }
+
+    .btn_actions button:last-child {
+        display: block;
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 516px) {
+    .content h1 {
+        width: 410px;
+    }
+}
+
+@media (max-width: 460px) {
+    .content h1 {
+        width: 370px;
+    }
+}
+
+@media (max-width: 419px) {
+    .content h1 {
+        width: 320px;
+    }
+}
+
+@media (max-width: 370px) {
+    .content h1 {
+        width: 280px;
+    }
+
+    .btn_actions button:last-child {
+        width: max-content;
+    }
+}
+
+@media (max-width: 330px) {
+    .content h1 {
+        font-size: 22px;
+        width: 220px;
+    }
+
+    .btn_actions button {
+        font-size: 0.8rem;
+        font-weight: 500;
+
+    }
+}

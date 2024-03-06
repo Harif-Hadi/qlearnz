@@ -1,0 +1,22 @@
+.sidebar {
+    border-right: 1px solid #176B87;
+    position: relative;
+    width: fit-content;
+    height: 100vh;
+}
+
+.sidebar_icon {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.small_sidebar_icon {
+    display: none;
+}
+
+.user {
+    border-top: 1px solid #176B87;
+    margin-top: 12rem;
+    height: 10rem;
+}

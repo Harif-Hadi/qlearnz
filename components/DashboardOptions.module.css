@@ -1,0 +1,16 @@
+.dashboard_options {
+    display: flex;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+
+.dashboard_options:hover {
+    background-color: #D9EDF3;
+}
+
+.dashboard_options h3 {
+    margin-left: 0.2rem;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+}

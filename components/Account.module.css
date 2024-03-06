@@ -1,0 +1,21 @@
+.account {
+    display: flex;
+    justify-content: left;
+    padding: 1rem 1.4rem;
+    cursor: pointer;
+}
+
+.account:hover {
+    background-color: #D9EDF3;
+}
+
+.account:last-child {
+    margin-bottom: 0;
+}
+
+.account h3 {
+    margin-left: 0.5rem;
+    font-weight: 400;
+    margin-bottom: auto;
+    margin-top: auto;
+}
