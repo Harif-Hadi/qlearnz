@@ -1,40 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+!! This project is not done, it'll be finished soon
 
-## Getting Started
+Requirments
 
-First, run the development server:
+1. Project Overview
+*Purpose: Build a secure, reliable web app for buying and selling.
+* Objective: To make buying and selling of products easy.
+2. Technical Requirements
+Frontend Development
+ *Technology: NextJS
+    *Key features:
+    * Responsive design for all devies (ie desktop, tablet, mobile).
+    * User Friendly design
+    * Integration with backend api
+Backend Development
+  *Technology: Node.js
+    * Key Features:
+    * Authentication with NextJS Authentication
+    * Email Sending to the owner of the project and the user when an item is being purchased
+    * Implementation of payment methods
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Database:
+  *Technology: MongoDB
+     *Storage of user's information
+     * Implementation of CRUD (Create, Read, Update, Delete) method on products (ie user's will be able to create products, update product information, and delete product)
+     * Data retrieval
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Authentication
+   * Tool: NextJS Authentication
+   * secure and effective login and registration processes
+   * Access control for different user types (buyer, seller)
+ 
+  
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Key Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* Product search functionality
+* Responsive design for various devices
+* Authentication with NextJS and also role based access for various users (Buyer, Seller)
+* Email sending to the seller and buyer and item is being purhased
+* Ability for users to be able to create products, update, and delete products.
+* Secure payment methods
+* Environment for users to have the opportunity to communicate with each other (real-time chat)
